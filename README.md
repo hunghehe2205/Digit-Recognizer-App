@@ -69,8 +69,10 @@ This launches both services:
 
 1. **Web Interface**: Open `http://localhost:7860` in your browser
 2. **Upload Tab**: Upload images for classification
-3. **Draw Tab**: Use the drawing canvas to create images
-4. **API Endpoints**: 
+3. ![Gradio UI](img/Screenshot 2025-07-07 at 16.43.25.png)
+4. **Draw Tab**: Use the drawing canvas to create images
+5. ![Gradio UI](img/Screenshot 2025-07-07 at 16.43.46.png)
+6. **API Endpoints**: 
    - `GET /health` - Health check
    - `POST /predict` - JSON array input (used by Gradio)
    - `POST /predict_test` - File upload endpoint
