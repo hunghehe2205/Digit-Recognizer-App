@@ -69,9 +69,9 @@ This launches both services:
 
 1. **Web Interface**: Open `http://localhost:7860` in your browser
 2. **Upload Tab**: Upload images for classification
-3. ![Gradio UI](img/Screenshot 2025-07-07 at 16.43.25.png)
+3. ![Alt text](https://github.com/hunghehe2205/Digit-Recognizer-App/blob/main/img/insert_img.png)
 4. **Draw Tab**: Use the drawing canvas to create images
-5. ![Gradio UI](img/Screenshot 2025-07-07 at 16.43.46.png)
+5. ![Alt text](https://github.com/hunghehe2205/Digit-Recognizer-App/blob/main/img/draw_img.png)
 6. **API Endpoints**: 
    - `GET /health` - Health check
    - `POST /predict` - JSON array input (used by Gradio)
