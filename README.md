@@ -42,7 +42,7 @@ Perfect for learning deployment patterns, experimenting with CNN architectures, 
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd pytorch-lenet-classifier
+   cd <folder>
    ```
 
 2. **Install dependencies**:
@@ -56,7 +56,7 @@ Perfect for learning deployment patterns, experimenting with CNN architectures, 
 
 ### Running the Application
 
-#### Option 1: Full Application (Recommended)
+#### (Recommended)
 ```bash
 python run.py
 ```
@@ -64,20 +64,6 @@ python run.py
 This launches both services:
 - **FastAPI Backend**: `http://localhost:8000`
 - **Gradio Frontend**: `http://localhost:7860`
-
-#### Option 2: Individual Services
-
-**Backend only**:
-```bash
-python -m app.api.main
-# or
-uvicorn app.api.main:app --host 0.0.0.0 --port 8000
-```
-
-**Frontend only** (requires backend running):
-```bash
-python -m app.front_end.gradio_app
-```
 
 ### Usage
 
