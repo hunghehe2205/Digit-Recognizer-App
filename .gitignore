@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch model files
+*.pt
+*.pth
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and outputs
+*.log
+
+# Gradio temp files
+gradio_cached_examples/
+gradio_output/
+
+# Python metadata
+*.egg-info/
+dist/
+build/
+
+# User-specific configuration
+*.swp
+*.swo
