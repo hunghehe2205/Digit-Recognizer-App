@@ -97,23 +97,6 @@ python -m app.front_end.gradio_app
 - **Output**: 10 classes (configurable)
 - **Preprocessing**: Grayscale conversion, resize, normalization
 
-### API Specification
-
-**POST /predict**
-```json
-{
-  "data": [[[pixel_values]]]  // 3D array: height x width x channels
-}
-```
-
-**Response**
-```json
-{
-  "predicted_class": 5,
-  "confidence": 0.95,
-  "probabilities": [0.01, 0.02, ...]
-}
-```
 
 ### Frontend Features
 - **Dual Input Methods**: File upload or drawing canvas
